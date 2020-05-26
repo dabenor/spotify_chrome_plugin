@@ -5,8 +5,12 @@
   "description": "This extension finds a good song for your website",
   "version": "1.0",
 
+  "background": {
+    "scripts": [ "scripts/require.js","scripts/main.js"]
+}
 
-  "permissions": [
+
+  ,"permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
   ]
