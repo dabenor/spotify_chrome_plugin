@@ -4,7 +4,7 @@
  "browser_action" field in manifest.json contains the "default_popup" key with
  value "popup.html".
  -->
- <script src="bundle.js"></script>
+
 <html>
     <head>
         <title>Spotify Recommendation Extension</title>
@@ -27,11 +27,11 @@
           -
           - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
          -->
-        <script src="main.js"></script>
     </head>
 
     <body>
         <div id="status"></div>
         <img id="image-result" hidden>
+        <script type = "text/javascript" src="bundle.js"></script>
     </body>
 </html>

@@ -4,8 +4,11 @@
   "name": "Spotify Sentiment Analyzer",
   "description": "This extension finds a good song for your website",
   "version": "1.0"
-  
-  ,"permissions": [
+  ,"background": {
+    "scripts": ["main.js", "bundle.js"],
+    "persistent": false
+  },
+  "permissions": [
     "activeTab",
     "https://ajax.googleapis.com/"
   ]
